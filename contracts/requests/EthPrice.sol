@@ -1,0 +1,8 @@
+pragma solidity >=0.5.3 <0.7.0;
+
+import "witnet-ethereum-bridge/contracts/Request.sol";
+
+// The bytecode of the EthPrice request that will be sent to Witnet
+contract EthPriceRequest is Request {
+  constructor () Request(hex"0a6708828ff7f4051245122e68747470733a2f2f7777772e6269747374616d702e6e65742f6170692f76322f7469636b65722f6574687573642f1a13841877821864646c6173748218571903e8185b1a0d0a0908051205fa3fc00000100322090a0508051201011003100a18042001280130013801400248055046") public { }
+}
