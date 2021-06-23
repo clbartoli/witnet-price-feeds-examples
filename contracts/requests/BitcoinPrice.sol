@@ -2,7 +2,7 @@
 
 pragma solidity >=0.7.0 <0.9.0;
 
-import "witnet-ethereum-bridge/contracts/Request.sol";
+import "witnet-ethereum-bridge/contracts/exports/Request.sol";
 
 // The bytecode of the BitcoinPrice request that will be sent to Witnet
 contract BitcoinPriceRequest is Request {

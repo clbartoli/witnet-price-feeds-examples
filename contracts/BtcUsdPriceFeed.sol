@@ -4,7 +4,7 @@ pragma experimental ABIEncoderV2;
 
 
 // Import the UsingWitnet library that enables interacting with Witnet
-import "witnet-ethereum-bridge/contracts/UsingWitnet.sol";
+import "witnet-ethereum-bridge/contracts/exports/UsingWitnet.sol";
 // Import the ERC2362 interface
 import "adomedianizer/contracts/interfaces/IERC2362.sol";
 // Import the BitcoinPrice request that you created before
